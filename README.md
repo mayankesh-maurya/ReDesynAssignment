@@ -1,4 +1,4 @@
-# Live Stream Log File Example App
+# Log Watcher Log File Example App
 
 This is a sample application created for a blog article explaining how to live stream a log file from a Rails server to the browser.
 
@@ -13,6 +13,6 @@ This is a sample application created for a blog article explaining how to live s
 
 ## Customization
 
-If you wish to live stream another file, navigate to `app/controllers/live_streams_controller` and update the **log_file_path** inside the `log_file` action to the desired file path.
+If you wish to live watcher another file, navigate to `app/controllers/live_streams_controller` and update the **log_file_path** inside the `log_file` action to the desired file path.
 
 Now, any changes made to that file will be live-streamed to the browser.
